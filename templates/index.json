@@ -2,38 +2,6 @@
   "sections": {
     "1650998754297d725f": {
       "type": "image-banner",
-      "blocks": {
-        "1650998754b4cca54d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "1650998754b4cca54d-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "1650998754b4cca54d-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1650998754b4cca54d-0",
-        "1650998754b4cca54d-1",
-        "1650998754b4cca54d-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Agave_attenuata_4_1.jpg",
         "image_2": "shopify:\/\/shop_images\/Agave_attenuata_6_1.jpg",

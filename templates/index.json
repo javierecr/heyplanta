@@ -294,6 +294,7 @@
         "column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Agave_attenuata_4_1.jpg",
             "title": "Column",
             "text": "<p>Use a combination of images and text to share key product information or brand values.<\/p>",
             "link_label": "",
@@ -303,6 +304,7 @@
         "column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Agave_attenuata_6_1.jpg",
             "title": "Column",
             "text": "<p>Use a combination of images and text to share key product information or brand values.<\/p>",
             "link_label": "Learn more",
@@ -315,12 +317,12 @@
         "column-2"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
+        "columns_desktop": 2,
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",

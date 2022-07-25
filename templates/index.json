@@ -54,29 +54,49 @@
         "show_text_below": true
       }
     },
-    "1658785230683f082d": {
-      "type": "featured-collection",
+    "16587930020f148878": {
+      "type": "collection-list",
+      "blocks": {
+        "165879300230d9b398-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "favoritas"
+          }
+        },
+        "165879300230d9b398-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bajo-mantenimiento"
+          }
+        },
+        "165879300230d9b398-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "para-regalar"
+          }
+        },
+        "0f332430-673d-427b-97e7-815234bd8e3f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "purificadoras-de-aire"
+          }
+        }
+      },
+      "block_order": [
+        "165879300230d9b398-0",
+        "165879300230d9b398-2",
+        "165879300230d9b398-1",
+        "0f332430-673d-427b-97e7-815234bd8e3f"
+      ],
       "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "favoritas",
-        "products_to_show": 4,
+        "title": "Otras categorías",
+        "heading_size": "h2",
+        "image_ratio": "square",
         "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -84,6 +104,6 @@
   },
   "order": [
     "1650998754297d725f",
-    "1658785230683f082d"
+    "16587930020f148878"
   ]
 }

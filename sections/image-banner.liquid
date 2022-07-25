@@ -61,7 +61,6 @@
     {% comment %} BANNER CONTENT {% endcomment %}
     <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
       <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
-        {%- for block in section.blocks -%}
           <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
             <span>{{ block.settings.heading | escape }}</span>
           </h2>
@@ -76,7 +75,6 @@
               <a{% if block.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</a>
             {%- endif -%}
           </div>
-        {%- endfor -%}
       </div>
     </div>
 

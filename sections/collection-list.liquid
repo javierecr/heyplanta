@@ -17,9 +17,14 @@
     }
   }
   {% if section.settings.gapless_columns %}
-    .grid.grid--gapless .grid__item {
-      --grid-desktop-horizontal-spacing: 0;
+
+    {% assign column_width = 100 | divided_by: section.settings.columns_desktop %}
+    @media screen and (min-width: 990px) {
+    .collection-list .collection-list-item {
+      width: {{column_width | append: '%' }};
+      max-width: {{column_width | append: '%' }};
     }
+    } 
   {% endif %}
 {%- endstyle -%}
 

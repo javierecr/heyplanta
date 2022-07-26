@@ -16,6 +16,9 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  {% if section.settings.gapless_columns %}
+    --grid-desktop-horizontal-spacing: 0;
+  {% endif %}
 {%- endstyle -%}
 
 {%- liquid
@@ -39,7 +42,7 @@
     {%- endunless -%}
   
     <slider-component class="slider-mobile-gutter">
-      <ul class="collection-list contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--gapless grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
+      <ul class="collection-list contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid {% if section.settings.gapless_columns %}grid--gapless {% endif %} grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
         id="Slider-{{ section.id }}"
         role="list"
       >
@@ -139,6 +142,12 @@
       "step": 1,
       "default": 3,
       "label": "t:sections.collection-list.settings.columns_desktop.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "gapless_columns",
+      "default": false,
+      "label": "Remove gap between columns"
     },
     {
       "type": "select",

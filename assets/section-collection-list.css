@@ -1,6 +1,13 @@
 .collection-list {
   margin-top: 0;
   margin-bottom: 0;
+  column-gap: 0;
+}
+
+.collection-list .collection-list__item {
+  margin-top: 0;
+  margin-bottom: 0;
+  column-gap: 0;
 }
 
 .collection-list-title {
@@ -58,4 +65,14 @@
 
 .collection-list-view-all {
   margin-top: 2rem;
+}
+
+.collection-list .collection-list__item {
+  border: 2px solid var(--color-base-text);
+}
+
+@media screen and (min-width: 990px) {
+  .collection-list .collection-list__item:not(:first-of-type) {
+    border-left: none;
+  }
 }

@@ -67,7 +67,11 @@
   margin-top: 2rem;
 }
 
-.collection-list .collection-list__item .card-wrapper .card--media .card-inner {
+.collection-list
+  .collection-list__item
+  .card-wrapper
+  .card--media
+  .card__inner {
   border: 2px solid rgb(var(--color-base-text));
 }
 
@@ -76,7 +80,7 @@
     .collection-list__item:not(:first-of-type)
     .card-wrapper
     .card--media
-    .card-inner {
+    .card__inner {
     border-left: none;
   }
 }

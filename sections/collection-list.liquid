@@ -17,7 +17,9 @@
     }
   }
   {% if section.settings.gapless_columns %}
-    --grid-desktop-horizontal-spacing: 0;
+    .grid.grid--gapless .grid__item {
+      --grid-desktop-horizontal-spacing: 0;
+    }
   {% endif %}
 {%- endstyle -%}
 

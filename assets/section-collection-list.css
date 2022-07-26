@@ -68,7 +68,7 @@
 }
 
 .collection-list .collection-list__item {
-  border: 2px solid var(--color-base-text);
+  border: 2px solid rgb(var(--color-base-text));
 }
 
 @media screen and (min-width: 990px) {

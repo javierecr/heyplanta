@@ -67,12 +67,16 @@
   margin-top: 2rem;
 }
 
-.collection-list .collection-list__item {
+.collection-list .collection-list__item .card-wrapper .card--media .card-inner {
   border: 2px solid rgb(var(--color-base-text));
 }
 
 @media screen and (min-width: 990px) {
-  .collection-list .collection-list__item:not(:first-of-type) {
+  .collection-list
+    .collection-list__item:not(:first-of-type)
+    .card-wrapper
+    .card--media
+    .card-inner {
     border-left: none;
   }
 }

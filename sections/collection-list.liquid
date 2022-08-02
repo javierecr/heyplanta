@@ -18,16 +18,18 @@
   }
   {% if section.settings.gapless_columns %}
 
-    {% assign column_width = 100 | divided_by: section.settings.columns_desktop | times: 1.0 %}
+    {% assign column_width = 100 | divided_by: section.settings.columns_desktop %}
+    {% assign column_width_float = column_width | times: 1.0 %}
+
     @media screen and (min-width: 990px) {
       .collection-list .collection-list__item {
-        width: {{column_width | append: '%' }};
-        max-width: {{column_width | append: '%' }};
+        width: {{column_width_float | append: '%' }};
+        max-width: {{column_width_float | append: '%' }};
       }
 
       .collection-list .collection-list__item:not(:first-of-type) {
-        width: {{column_width | minus: 2 | append: '%' }};
-        max-width: {{column_width | minus: 2 | append: '%' }};
+        width: {{column_width_float | minus: 2 | append: '%' }};
+        max-width: {{column_width_float | minus: 2 | append: '%' }};
       }
     } 
   {% endif %}

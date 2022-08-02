@@ -60,7 +60,7 @@
         {% if block.settings.heading != blank or block.settings.text != blank or block.settings.button_label_1 != blank or block.settings.button_label_2 != blank or block.settings.heading_image != blank %}
         <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
             {% if block.settings.heading_image != blank %}
-              <img src="{{ block.settings.heading_image | img_url: 'master' }}" class="banner__heading-image" alt="{{ block.settings.heading || 'heyplanta' }}" style="width: {{block.settings.heading_image_width}};">
+              <img src="{{ block.settings.heading_image | img_url: 'master' }}" class="banner__heading-image" alt="{{ block.settings.heading | default: 'heyplanta' }}" style="width: {{block.settings.heading_image_width}};">
             {% endif %}
             <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
               <span>{{ block.settings.heading | escape }}</span>

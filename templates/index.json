@@ -8,14 +8,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Agave_attenuata_4_1.jpg",
             "heading_image": "shopify:\/\/shop_images\/Screen_Shot_2022-04-26_at_1.54.25_p.m..png",
-            "heading": "Primer banner",
+            "heading_image_width": 30,
+            "heading": "",
             "heading_size": "h1",
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "",
             "text_style": "body",
-            "button_label_1": "Button label",
+            "button_label_1": "",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -24,6 +25,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Agave_attenuata_6_1.jpg",
+            "heading_image_width": 30,
             "heading": "Segundo banner",
             "heading_size": "h1",
             "text": "Give customers details about the banner image(s) or content on the template.",
@@ -103,6 +105,7 @@
         "1658793212be4c951a-0": {
           "type": "image",
           "settings": {
+            "heading_image_width": 30,
             "heading": "",
             "heading_size": "h1",
             "text": "",

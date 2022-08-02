@@ -59,8 +59,8 @@
       <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
         {% if block.settings.heading != blank or block.settings.text != blank or block.settings.button_label_1 != blank or block.settings.button_label_2 != blank %}
         <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
-            {% if block.settings.image != blank %}
-              {{ block.settings.image | img_tag: block.settings.heading, 'banner__heading-image', 'master' }}
+            {% if block.settings.heading_image != blank %}
+              {{ block.settings.heading_image | img_tag: block.settings.heading, 'banner__heading-image', 'master' }}
             {% endif %}
             <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
               <span>{{ block.settings.heading | escape }}</span>
@@ -368,7 +368,7 @@
         },
         {
           "type": "image_picker",
-          "id": "image",
+          "id": "heading_image",
           "label": "Heading image"
         },
         {

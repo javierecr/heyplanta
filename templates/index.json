@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Agave_attenuata_4_1.jpg",
-            "heading_image": "shopify:\/\/shop_images\/Vector.png",
+            "heading_image": "shopify:\/\/shop_images\/XMLID_1525.png",
             "heading_image_width": 30,
             "heading": "",
             "heading_size": "h1",
@@ -26,14 +26,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Agave_attenuata_6_1.jpg",
             "heading_image_width": 30,
-            "heading": "Segundo banner",
-            "heading_size": "h1",
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body",
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "heading": "LENGUA DE VACA",
+            "heading_size": "h2",
+            "text": "DRACAENA (SANSEVIERIA)",
+            "text_style": "subtitle",
+            "button_label_1": "COMPRAR",
+            "button_link_1": "shopify:\/\/products\/sansiveria",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }

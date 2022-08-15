@@ -104,6 +104,7 @@
         "1658793212be4c951a-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1.png",
             "heading_image_width": 30,
             "heading": "",
             "heading_size": "h1",

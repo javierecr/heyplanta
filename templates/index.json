@@ -206,6 +206,40 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1660861739d949769d": {
+      "type": "newsletter",
+      "blocks": {
+        "166086173901867473-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Suscríbete al newsletter",
+            "heading_size": "h1"
+          }
+        },
+        "166086173901867473-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Regístrate y obtén 10% de descuento en tu primer compra<\/p>"
+          }
+        },
+        "166086173901867473-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "166086173901867473-0",
+        "166086173901867473-1",
+        "166086173901867473-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -213,6 +247,7 @@
     "16587930020f148878",
     "166086160050fff5f1",
     "16587944176384bd4a",
-    "16587932123545aeea"
+    "16587932123545aeea",
+    "1660861739d949769d"
   ]
 }

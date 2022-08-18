@@ -84,7 +84,7 @@
         "row-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "INFORMACION",
+            "heading": "DESCRIPCIÓN",
             "icon": "bottle",
             "row_content": "",
             "page": ""
@@ -93,7 +93,7 @@
         "row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "RIEGO",
+            "heading": "CUIDADOS",
             "icon": "box",
             "row_content": "",
             "page": ""
@@ -107,16 +107,36 @@
             "row_content": "",
             "page": ""
           }
+        },
+        "2bf8a7e0-7ee0-4969-97f2-bf8010901eb6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "BENEFICIOS",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "9c7c2fa0-b1a2-4dc7-85f4-b4b9b2eb3df7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "PRIMEROS AUXILIOS",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "row-0",
         "row-1",
-        "row-2"
+        "row-2",
+        "2bf8a7e0-7ee0-4969-97f2-bf8010901eb6",
+        "9c7c2fa0-b1a2-4dc7-85f4-b4b9b2eb3df7"
       ],
       "settings": {
-        "caption": "Introduce your content",
-        "heading": "Answer your customers' common questions",
+        "caption": "",
+        "heading": "",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "section",

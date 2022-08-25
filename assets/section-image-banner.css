@@ -156,7 +156,7 @@
   border: 2px solid rgb(var(--color-base-text));
 }
 
-.banner__media :is(:not(:last-child), :not(:only-child)) {
+.banner__media:not(:last-child):not(:only-child) {
   border-right: none;
 }
 

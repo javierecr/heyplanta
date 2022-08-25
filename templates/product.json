@@ -53,7 +53,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Descripción",
-            "icon": "check_mark",
+            "icon": "plant",
             "content": "<p>{{ product.metafields.custom.decripcion | metafield_tag }}<\/p>",
             "page": ""
           }
@@ -62,7 +62,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Cuidados",
-            "icon": "check_mark",
+            "icon": "eye",
             "content": "<p>{{ product.metafields.custom.cuidados | metafield_tag }}<\/p>",
             "page": ""
           }
@@ -80,7 +80,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Beneficios",
-            "icon": "check_mark",
+            "icon": "heart",
             "content": "<p>{{ product.metafields.custom.beneficios | metafield_tag }}<\/p>",
             "page": ""
           }
@@ -89,7 +89,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Primeros auxilios",
-            "icon": "check_mark",
+            "icon": "leaf",
             "content": "<p>{{ product.metafields.custom.primeros_auxilios | metafield_tag }}<\/p>",
             "page": ""
           }

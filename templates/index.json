@@ -78,18 +78,25 @@
           "settings": {
             "collection": "para-regalar"
           }
+        },
+        "bedd784a-0326-4405-94c3-a921100ea9fd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "purificadoras-de-aire"
+          }
         }
       },
       "block_order": [
         "165879300230d9b398-0",
         "165879300230d9b398-2",
-        "165879300230d9b398-1"
+        "165879300230d9b398-1",
+        "bedd784a-0326-4405-94c3-a921100ea9fd"
       ],
       "settings": {
         "title": "Otras categorías",
         "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "gapless_columns": true,
         "color_scheme": "background-1",
         "show_view_all": false,

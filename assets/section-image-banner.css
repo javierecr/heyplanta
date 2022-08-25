@@ -153,10 +153,12 @@
   left: 0;
   top: 0;
   width: 100%;
+}
+.banner.border .banner__media {
   border: 2px solid rgb(var(--color-base-text));
 }
 
-.banner__media:not(:last-child):not(:only-child) {
+.banner.border .banner__media:not(:last-child):not(:only-child) {
   border-right: none;
 }
 

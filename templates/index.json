@@ -131,7 +131,7 @@
         "1658793212be4c951a-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1.png",
+            "image": "shopify:\/\/shop_images\/plants_best_friends-banner_image.png",
             "heading_image_width": 30,
             "heading": "",
             "heading_size": "h1",
@@ -152,8 +152,8 @@
       "settings": {
         "full_width": false,
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
+        "image_height": "large",
+        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",

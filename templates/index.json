@@ -26,15 +26,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Agave_attenuata_6_1.jpg",
             "heading_image_width": 30,
-            "heading": "LENGUA DE VACA",
+            "heading": "Adopta a tu mejor amix.",
             "heading_size": "h2",
-            "text": "DRACAENA (SANSEVIERIA)",
-            "text_style": "subtitle",
-            "button_label_1": "COMPRAR",
+            "text": "conoce a nuestro surtido. Tenemos de chile, mole y pozole.",
+            "text_style": "body",
+            "button_label_1": "VER PLANTAS",
             "button_link_1": "shopify:\/\/products\/sansiveria",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "VER PLANTAS FACILITAS",
+            "button_link_2": "#",
             "button_style_secondary_2": false
           }
         }
@@ -178,22 +178,22 @@
         "1658794417cd6396aa-0": {
           "type": "heading",
           "settings": {
-            "heading": "¿Quienes somos?",
+            "heading": "Biofílicos incomprendidos, los ñoños chidos de la escena plantae.",
             "heading_size": "h1"
           }
         },
         "1658794417cd6396aa-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Estamos obsesionados con las plantas<\/p>",
             "text_style": "body"
           }
         },
         "1658794417cd6396aa-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Conócenos",
+            "button_link": "#"
           }
         }
       },

@@ -39,6 +39,23 @@
         max-width: calc({{column_width | append: '%' }} - 2px);
       }
     } 
+    .product-grid
+    .grid__item
+    .card-wrapper
+    .card--media
+    .card__inner {
+      border: 2px solid rgb(var(--color-base-text));
+    }
+
+    @media screen and (min-width: 990px) {
+      .product-grid
+      .grid__item:not(:first-of-type)
+      .card-wrapper
+      .card--media
+      .card__inner {
+        border-left: none;
+      }
+    }
   {% endif %}
 {%- endstyle -%}
 

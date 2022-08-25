@@ -49,10 +49,49 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
+        "ea98db39-cc71-465e-87e8-333383825fb3": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "Descripción",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "a35ec629-23ad-4041-b3b2-4fcdff54e7bf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cuidados",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "680f846c-3df8-4bc4-965d-f544b0ea8cbc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Toxicidad",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "5be75317-93b2-4a6b-a4e1-c3bb56981307": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Beneficios",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "108ce687-0b10-426c-987e-a01832e5e02f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Primeros auxilios",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
           }
         }
       },
@@ -65,7 +104,11 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "ea98db39-cc71-465e-87e8-333383825fb3",
+        "a35ec629-23ad-4041-b3b2-4fcdff54e7bf",
+        "680f846c-3df8-4bc4-965d-f544b0ea8cbc",
+        "5be75317-93b2-4a6b-a4e1-c3bb56981307",
+        "108ce687-0b10-426c-987e-a01832e5e02f"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -80,6 +123,7 @@
     },
     "collapsible-content": {
       "type": "collapsible-content",
+      "disabled": true,
       "blocks": {
         "row-0": {
           "type": "collapsible_row",

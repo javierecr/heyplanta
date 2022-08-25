@@ -37,7 +37,7 @@
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-  {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
+  {%- if section.blocks.size > 0 or section.settings.show_social -%}
     <div class="footer__content-top page-width">
       {%- if section.blocks.size > 0 -%}
         {%- liquid
@@ -92,10 +92,9 @@
                   </div>
                 {%- when 'newsletter' -%}
                 <div class="footer-block--newsletter">
-                  {%- if section.settings.newsletter_enable -%}
                     <div class="footer-block__newsletter">
-                      {%- if section.settings.newsletter_heading != blank -%}
-                        <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
+                      {%- if block.settings.newsletter_heading != blank -%}
+                        <h2 class="footer-block__heading">{{ block.settings.newsletter_heading | escape }}</h2>
                       {%- endif -%}
                       {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                         <input type="hidden" name="contact[tags]" value="newsletter">
@@ -137,7 +136,6 @@
                         {%- endif -%}
                       {%- endform -%}
                     </div>
-                  {%- endif -%}
 
                   {%- if section.settings.show_social -%}
                     <ul class="footer__list-social list-unstyled list-social" role="list">
@@ -480,12 +478,6 @@
           "type": "header",
           "content": "t:sections.footer.settings.header__1.content",
           "info": "t:sections.footer.settings.header__1.info"
-        },
-        {
-          "type": "checkbox",
-          "id": "newsletter_enable",
-          "default": true,
-          "label": "t:sections.footer.settings.newsletter_enable.label"
         },
         {
           "type": "text",

@@ -44,7 +44,7 @@
               assign sizes = "100vw"
             endif
           -%}
-          {{ block.settings.image | image_url: width: 1500 | image_tag:
+          {{ block.settings.image | image_url: width: 'master' | image_tag:
             loading: 'lazy',
             width: block.settings.image.width,
             height: image_height,

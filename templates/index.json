@@ -44,6 +44,7 @@
         "eb0264b4-7e09-43d7-b824-a579a30e5c1b"
       ],
       "settings": {
+        "border": true,
         "full_width": false,
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -150,6 +151,7 @@
         "1658793212be4c951a-0"
       ],
       "settings": {
+        "border": false,
         "full_width": false,
         "image_overlay_opacity": 0,
         "image_height": "large",

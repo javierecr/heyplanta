@@ -93,13 +93,13 @@
         "bedd784a-0326-4405-94c3-a921100ea9fd"
       ],
       "settings": {
-        "title": "Otras categorías",
-        "heading_size": "h2",
+        "title": "Explorar por categoría",
+        "heading_size": "h0",
         "image_ratio": "portrait",
         "columns_desktop": 4,
         "gapless_columns": true,
         "color_scheme": "background-1",
-        "show_view_all": false,
+        "show_view_all": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
@@ -110,7 +110,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Favoritas",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "description": "",
         "show_description": false,
         "description_style": "body",

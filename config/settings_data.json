@@ -148,16 +148,21 @@
               "heading": "Quick links",
               "menu": "main-menu"
             }
+          },
+          "81ed4082-8b26-4adf-9fd2-3adcb2d1219e": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_heading": "Suscribete al newsletter acá ☟"
+            }
           }
         },
         "block_order": [
           "image",
-          "link-list"
+          "link-list",
+          "81ed4082-8b26-4adf-9fd2-3adcb2d1219e"
         ],
         "settings": {
           "color_scheme": "background-2",
-          "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,

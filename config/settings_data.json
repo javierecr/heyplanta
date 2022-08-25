@@ -148,19 +148,11 @@
               "heading": "Quick links",
               "menu": "main-menu"
             }
-          },
-          "text": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
           }
         },
         "block_order": [
           "image",
-          "link-list",
-          "text"
+          "link-list"
         ],
         "settings": {
           "color_scheme": "background-2",

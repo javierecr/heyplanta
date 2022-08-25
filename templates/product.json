@@ -54,7 +54,7 @@
           "settings": {
             "heading": "Descripción",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.decripcion | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Cuidados",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.cuidados | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Toxicidad",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.toxicidad | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -81,7 +81,7 @@
           "settings": {
             "heading": "Beneficios",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.beneficios | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -90,7 +90,7 @@
           "settings": {
             "heading": "Primeros auxilios",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.primeros_auxilios | metafield_tag }}<\/p>",
             "page": ""
           }
         }

@@ -153,6 +153,11 @@
   left: 0;
   top: 0;
   width: 100%;
+  border: 2px solid var(rgb(--color-base-text));
+}
+
+.banner__media :is(:not(:last-child), :not(:only-child)) {
+  border-right: none;
 }
 
 .banner__media-half {
